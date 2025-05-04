@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    background: #f9f9f9;
+  }
+  
+  section {
+    margin: 2rem 0;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  #hover-img {
+    transition: transform 0.3s;
+    cursor: pointer;
+  }
+  
+  #hover-img:hover {
+    transform: scale(1.1);
+  }
+  
+  .accordion .tab-content {
+    display: none;
+    margin-top: 0.5rem;
+    background: #eee;
+    padding: 1rem;
+  }
+  
+  .accordion .tab-toggle {
+    background: #ddd;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    width: 100%;
+    text-align: left;
+  }
+  

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JS Event Playground</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🎯 JavaScript Event Playground</h1>
+  </header>
+
+  <!-- Button Event -->
+  <section>
+    <button id="color-btn">Click Me!</button>
+    <p id="color-text">Watch me change...</p>
+  </section>
+
+  <!-- Hover Image -->
+  <section>
+    <img id="hover-img" src="https://via.placeholder.com/150" alt="Hover me">
+  </section>
+
+  <!-- Keypress Event -->
+  <section>
+    <input type="text" id="key-input" placeholder="Type something...">
+    <p id="key-output">Key pressed will appear here.</p>
+  </section>
+
+  <!-- Secret Action (Double-click) -->
+  <section>
+    <button id="secret-btn">Double-click Me for Magic ✨</button>
+    <p id="secret-msg"></p>
+  </section>
+
+  <!-- Tabs/Accordion -->
+  <section class="accordion">
+    <h2>FAQs</h2>
+    <div class="tab">
+      <button class="tab-toggle">What is JavaScript?</button>
+      <div class="tab-content">JavaScript is a powerful scripting language for web interactivity.</div>
+    </div>
+    <div class="tab">
+      <button class="tab-toggle">Why use Events?</button>
+      <div class="tab-content">Events allow us to respond to user actions in real-time.</div>
+    </div>
+  </section>
+
+  <!-- Form Validation -->
+  <section>
+    <h2>Signup Form</h2>
+    <form id="signup-form">
+      <input type="text" id="name" placeholder="Name" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="password" id="password" placeholder="Password (min 8 chars)" required>
+      <button type="submit">Submit</button>
+      <p id="form-message"></p>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
